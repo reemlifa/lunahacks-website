@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LunaHacks</title>
+    <link href="freq.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+    <style>
+        .logo {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            width: 100px; /* Adjust the width as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+    <div class="please">
+        <a href="index.html">
+            <img src="https://lh3.googleusercontent.com/pw/AP1GczOZigjVGlKtdItnjubS17Eptc7-RTv44KJLZ3vJJ8VJr5yk2xbyAbKYBDE8FRCuhQRI6zsRskbnK0yVqwRPJS5a90rGGVjN_-trH1YxfIQM679FaKut=w2400" alt="Home" class="home-button" style="width: 150px; height: auto;">
+        </a>
+    </div>
+
+    <div class="rightnav">
+        <a href="about.html"><button>About</button></a>
+        <a href="schedule.html"><button>Schedule</button></a>
+        <a href="register.html"><button>Register</button></a>
+          <a href = "judge.html">
+            <button>Prompts and Judging</button>
+          </a>
+        <a href="freq.html"><button>FAQ</button></a>
+        <a href="contact.html"><button>Contact</button></a>
+    </div>
+
+    <h1>FAQ</h1>
+
+    <div class="faq-section">
+
+        <div class="faq-item1">
+            <button class="faq-question">What is your return policy?</button>
+            <div class="faq-answer">
+                <p>Our return policy lasts 30 days. If 30 days have gone by since your purchase, unfortunately, we can’t offer you a refund or exchange.</p>
+            </div>
+ 
+            <button class="faq-question">How do I track my order?</button>
+            <div class="faq-answer">
+                <p>You can track your order using the tracking number provided in your order confirmation email.</p>
+            </div>
+  
+          <button class="faq-question">What is your return policy?</button>
+          <div class="faq-answer">
+              <p>Our return policy lasts 30 days. If 30 days have gone by since your purchase, unfortunately, we can’t offer you a refund or exchange.</p>
+          </div>
+      </div> 
+      
+      
+      <script>
+          $(document).ready(function() {
+              $('.faq-question').click(function() {
+                  $(this).next('.faq-answer').toggleClass('show');
+              });
+          });
+      </script>
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
